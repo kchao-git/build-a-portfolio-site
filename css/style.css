@@ -1,8 +1,7 @@
 body {
-	font-family: 'Lato', sans-serif;
-	color: #FCFFFA;
-	font-weight: 300;
-	background-color: #3F403F;
+	font: normal 300 1.5em/1 "Lato", sans-serif;
+	color: #fcfffa;
+	background-color: #3f403f;
 }
 
 a {
@@ -10,7 +9,7 @@ a {
 }
 
 .text-muted {
-	color: #BCBBBB;
+	color: #bcbbbb;
 }
 
 .text-thin {
@@ -39,20 +38,31 @@ a {
 	.title-super {
 		font-size: 40px;
 	}
+
+	.work-title {
+		font-size: 18px;
+	}
+
+	.work-link {
+		font-size: 14px;
+	}
 }
 
 @media screen and (max-width: 767px) {
 	.title-logo {
-		margin-left: auto;
-		margin-right: auto;
+		margin: auto;
 	}
+
 	.header-title {
 		text-align: center;
 	}
-	.work-image, .work-description {
+
+	.work-image,
+	.work-description {
 		width: 50%;
 		padding: 5px;
 	}
+
 	.work-section {
 		padding: 1.5em;
 		align-items: center;
