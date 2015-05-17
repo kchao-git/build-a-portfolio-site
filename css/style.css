@@ -1,0 +1,60 @@
+body {
+	font-family: 'Lato', sans-serif;
+	color: #FCFFFA;
+	font-weight: 300;
+	background-color: #3F403F;
+}
+
+a {
+	padding: 1.5em;
+}
+
+.text-muted {
+	color: #BCBBBB;
+}
+
+.text-thin {
+	font-weight: 100;
+}
+
+.title-logo {
+	margin: 20px;
+	max-height: 100px;
+}
+
+.title-super {
+	font-size: 60px;
+}
+
+.header-title {
+	text-align: right;
+}
+
+.work-section {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+@media screen and (max-width: 415px) {
+	.title-super {
+		font-size: 40px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.title-logo {
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.header-title {
+		text-align: center;
+	}
+	.work-image, .work-description {
+		width: 50%;
+		padding: 5px;
+	}
+	.work-section {
+		padding: 1.5em;
+		align-items: center;
+	}
+}
